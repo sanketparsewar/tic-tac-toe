@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <title>TicTacToe</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Tic Tac Toe</h1>
+        <div class="box">
+            <div class="row">
+                <div id="boxId0" onclick="generate(0)"></div>
+                <div id="boxId1" onclick="generate(1)"></div>
+                <div id="boxId2" onclick="generate(2)"></div>
+            </div>
+            <div class="row">
+                <div id="boxId3" onclick="generate(3)"></div>
+                <div id="boxId4" onclick="generate(4)"></div>
+                <div id="boxId5" onclick="generate(5)"></div>
+            </div>
+            <div class="row">
+                <div id="boxId6" onclick="generate(6)"></div>
+                <div id="boxId7" onclick="generate(7)"></div>
+                <div id="boxId8" onclick="generate(8)"></div>
+            </div>
+        </div>
+        <p id="player">o's Turn</p>
+        <button id="restart">Restart</button>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
